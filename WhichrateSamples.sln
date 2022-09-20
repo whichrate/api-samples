@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhichrateClient", "WhichrateClient\WhichrateClient.csproj", "{42600E08-A575-4FE0-ABFE-470F0396A513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhichrateClient.Tests", "WhichrateClient.Tests\WhichrateClient.Tests.csproj", "{BE70E9CE-F731-4C6E-AE03-7C9B5047B473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhichrateClient.Sample", "WhichrateClient.Sample\WhichrateClient.Sample.csproj", "{AA4940AF-C22E-4C1B-A46A-8920E0C9E28C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42600E08-A575-4FE0-ABFE-470F0396A513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42600E08-A575-4FE0-ABFE-470F0396A513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42600E08-A575-4FE0-ABFE-470F0396A513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42600E08-A575-4FE0-ABFE-470F0396A513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE70E9CE-F731-4C6E-AE03-7C9B5047B473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE70E9CE-F731-4C6E-AE03-7C9B5047B473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE70E9CE-F731-4C6E-AE03-7C9B5047B473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE70E9CE-F731-4C6E-AE03-7C9B5047B473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4940AF-C22E-4C1B-A46A-8920E0C9E28C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4940AF-C22E-4C1B-A46A-8920E0C9E28C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4940AF-C22E-4C1B-A46A-8920E0C9E28C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4940AF-C22E-4C1B-A46A-8920E0C9E28C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
