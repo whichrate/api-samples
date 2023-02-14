@@ -23,9 +23,9 @@ var searchClient = new SearchClient(token.AccessToken);
 var searchRequest = new SearchRequest()
 {
     HireDate = "2022-05-29",
-    Postcode = "NL68 NMA",
+    Postcode = "ST147JQ",
     HireDuration = 10,
-    Vrn = "AV60ZDS",
+    Vrn = "NL68NMA",
     Automatic = false,
     AdditionalDrivers = 1
 };
