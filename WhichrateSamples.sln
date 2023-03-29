@@ -1,10 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhichrateClient", "WhichrateClient\WhichrateClient.csproj", "{42600E08-A575-4FE0-ABFE-470F0396A513}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhichrateClient", "WhichrateClient\WhichrateClient.csproj", "{42600E08-A575-4FE0-ABFE-470F0396A513}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhichrateClient.Tests", "WhichrateClient.Tests\WhichrateClient.Tests.csproj", "{BE70E9CE-F731-4C6E-AE03-7C9B5047B473}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhichrateClient.Tests", "WhichrateClient.Tests\WhichrateClient.Tests.csproj", "{BE70E9CE-F731-4C6E-AE03-7C9B5047B473}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhichrateClient.Sample", "WhichrateClient.Sample\WhichrateClient.Sample.csproj", "{AA4940AF-C22E-4C1B-A46A-8920E0C9E28C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhichrateClient.Sample", "WhichrateClient.Sample\WhichrateClient.Sample.csproj", "{AA4940AF-C22E-4C1B-A46A-8920E0C9E28C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhichrateSimpleClient", "WhichrateSimpleClient\WhichrateSimpleClient.csproj", "{DDB42283-4305-414E-8E71-DA834BDC7FC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +29,15 @@ Global
 		{AA4940AF-C22E-4C1B-A46A-8920E0C9E28C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA4940AF-C22E-4C1B-A46A-8920E0C9E28C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA4940AF-C22E-4C1B-A46A-8920E0C9E28C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDB42283-4305-414E-8E71-DA834BDC7FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB42283-4305-414E-8E71-DA834BDC7FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB42283-4305-414E-8E71-DA834BDC7FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB42283-4305-414E-8E71-DA834BDC7FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D70BEE6-28A1-4C40-9567-55750D20D619}
 	EndGlobalSection
 EndGlobal

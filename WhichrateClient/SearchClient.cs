@@ -45,7 +45,7 @@ public sealed class SearchClient : ISearchClient
             .AppendPathSegment("searches")
             .WithOAuthBearerToken(_bearerToken)
             .WithHeader(HttpHeaders.ContentTypeHeader, HttpHeaders.ContentTypeJson)
-            .SendJsonAsync(HttpMethod.Get, request);
+            .SendJsonAsync(HttpMethod.Post, request);
 
        return await response.GetJsonAsync<IReadOnlyList<SearchResponse>>();
     }
